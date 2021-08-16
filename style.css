@@ -21,7 +21,6 @@ body {
 }
 
 header {
-  height: 10vh;
   min-width: 100%;
   background-color: #3c3a39;
   align-items: center;
@@ -50,8 +49,12 @@ header nav .icon {
 main {
   padding: 20px;
   flex-direction: column;
-  min-height: 86vh;
+  min-height: 82vh;
   background-color: #1c1a19;
+  background-image: url(./images/Illustration.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 48%;
 }
 
 main .text-content {
@@ -98,13 +101,4 @@ li:nth-child(2) {
   position: relative;
   top: -19px;
   left: 13px;
-}
-
-.side-img {
-  position: absolute;
-  right: 5px;
-  top: 221px;
-  width: 150px;
-  height: 400px;
-  background-image: url(./images/Illustration.png);
 }
