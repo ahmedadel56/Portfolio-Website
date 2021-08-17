@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+header,
+header nav a,
+main,
+main .text-content {
+  display: flex;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  min-width: 100%;
+  background-color: #3c3a39;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  display: inherit;
+  flex: 1 1;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  width: 50%;
+}
+
+header nav .icon {
+  justify-content: flex-end;
+}
+
+main {
+  padding: 20px;
+  flex-direction: column;
+  min-height: 82vh;
+  background-color: #1c1a19;
+  background-image: url(./images/Illustration.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 48%;
+}
+
+main .text-content {
+  margin: 30px 20px 0 30px;
+  flex-direction: column;
+}
+
+.text-content h1 {
+  margin: 12px 0;
+  font-family: 'crete Round', serif;
+  font-size: 56px;
+  color: #ff6b00;
+}
+
+.text-content h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.text-content p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.icons {
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 3px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+li:nth-child(2) {
+  position: relative;
+  top: -19px;
+  left: 13px;
+}
